@@ -3,6 +3,7 @@ package br.com.dao;
 import java.sql.*;
 public class ConnectionFactory {
 	// Editando no Eclipse...
+  // Editando no Browser...
 	public static void main(String[] args) {
 }
 		public Connection getConnection(){
