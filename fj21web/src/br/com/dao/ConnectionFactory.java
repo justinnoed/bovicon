@@ -13,7 +13,7 @@ public class ConnectionFactory {
 				} catch (ClassNotFoundException e) {
 					e.printStackTrace();
 				}
-				return DriverManager.getConnection("jdbc:postgresql://localhost:5432/justinsoft", "postgres", "x7b2h9k3");
+				return DriverManager.getConnection("jdbc:postgresql://localhost:5432/justinsoft", "postgres", "22222");
 			} catch (SQLException e) {
 				throw new RuntimeException(e);
 			}
